@@ -1,0 +1,6 @@
+{
+  "name": "5. Yıldönümü Hediyesi",
+  "description": "Winnie the Pooh ve Prenses Ariel temall, şarkı listeli, fotoğraf polaroidli, ruh halı günlük defterli ve kıyafet asistanlı büyülü 5. yıl dönümü hediyesi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

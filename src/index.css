@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Quicksand:wght@400;500;600;700&display=swap');
+
+:root {
+  --theme-bg: #FFFDF9; /* Cream Soft Pooh */
+  --theme-text: #5D4037; /* Dark Cocoa */
+  --theme-primary: #FFB703; /* Deep Honey Yellow */
+  --theme-secondary: #FFA3A5; /* Sweet Piglet Pink */
+  --theme-accent: #7EA172; /* Pooh Forest/Sage Green */
+  --theme-card-bg: rgba(255, 255, 255, 0.55);
+  --theme-card-border: rgba(255, 183, 3, 0.15);
+  --theme-card-shadow: rgba(93, 64, 55, 0.08);
+  --font-family-hand: 'Caveat', cursive;
+  --font-family-title: 'Playfair Display', serif;
+  --font-family-sans: 'Quicksand', 'Inter', sans-serif;
+}
+
+[data-theme="ariel"] {
+  --theme-bg: #E0F7FA; /* Deep Sea Foam / Cool Mint */
+  --theme-text: #004D40; /* Indigo Sea Green */
+  --theme-primary: #00ACC1; /* Underwater Teal */
+  --theme-secondary: #FF7A5A; /* Ariel Hair Red/Coral */
+  --theme-accent: #AB47BC; /* Seashell Royal Purple */
+  --theme-card-bg: rgba(255, 255, 255, 0.5);
+  --theme-card-border: rgba(0, 172, 193, 0.2);
+  --theme-card-shadow: rgba(0, 77, 64, 0.12);
+}
+
+* {
+  transition: background-color 0.8s ease-in-out, 
+              color 0.8s ease-in-out, 
+              border-color 0.8s ease-in-out, 
+              box-shadow 0.8s ease-in-out;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: var(--theme-card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--theme-card-border);
+  box-shadow: 0 8px 32px 0 var(--theme-card-shadow);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid var(--theme-card-border);
+  color: var(--theme-text);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Stagger delays helper classes */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+
+/* Custom keyframes for Pooh's Fall Wind and Ariel's Bubbles */
+@keyframes fall-and-sway {
+  0% {
+    transform: translateY(-20px) rotate(0deg) translateX(0px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(105vh) rotate(360deg) translateX(50px);
+    opacity: 0;
+  }
+}
+
+@keyframes rise-and-wobble {
+  0% {
+    transform: translateY(105vh) translateX(0px) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(50vh) translateX(25px) scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-5vh) translateX(-15px) scale(0.9);
+    opacity: 0;
+  }
+}
+
+.animate-particle-fall {
+  animation: fall-and-sway linear infinite;
+}
+
+.animate-particle-rise {
+  animation: rise-and-wobble linear infinite;
+}
+
+/* Pulse animation for the recording icon */
+@keyframes mic-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+  }
+}
+
+.pulse-mic {
+  animation: mic-pulse 1.5s infinite;
+}
+
+/* Polaroid custom styles */
+.polaroid-card {
+  box-shadow: 0 12px 28px rgba(0,0,0,0.06), 0 4px 10px rgba(0,0,0,0.04);
+}
