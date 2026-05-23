@@ -17,7 +17,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 1: Winnie the Pooh ve Bal Ağacı",
     originalName: "Winnie the Pooh and the Honey Tree",
     duration: "25:35",
-    videoId: "g3H9_A7O0_M",
+    videoId: "MWNg-RZRk18",
     defaultNote: "Winnie'nin balonla yukarı uçup arılardan bal avlamaya çalıştığı o masalsı efsanevi ilk macera."
   },
   {
@@ -25,7 +25,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 2: Esintili Fırtınalı Bir Gün",
     originalName: "Winnie the Pooh and the Blustery Day",
     duration: "24:12",
-    videoId: "as0pLa76T68",
+    videoId: "V0l9Qf4P3G4",
     defaultNote: "Yüz Dönüm Ormanı'nda rüzgarın estiği, Pooh ve Piglet'in dostluklarını sınayan harika bir gün."
   },
   {
@@ -33,7 +33,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 3: Winnie the Pooh ve Zıpzıp Tigger",
     originalName: "Winnie the Pooh and Tigger Too",
     duration: "23:55",
-    videoId: "SgM_mG8p9b0",
+    videoId: "xRz7z-I1z-I",
     defaultNote: "Halk arasında zıplama şampiyonu Tigger'ın ormana neşe saçtığı ve ağaçta mahsur kaldığı unutulmaz anlar."
   },
   {
@@ -41,7 +41,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 4: Piglet'in Korkularını Aştığı Gün",
     originalName: "Piglet's Big Heroic Adventure",
     duration: "22:10",
-    videoId: "U5pPlD8H_O0",
+    videoId: "pV7S8X1F80M",
     defaultNote: "Zarif, duyarlı, ürkek küçük dostumuz Piglet'in hepimizden daha cesur bir kalbe sahip olduğunu kanıtladığı gün."
   },
   {
@@ -49,7 +49,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 5: Bilge Eeyore'un Mutlu Günü",
     originalName: "A Day For Eeyore",
     duration: "21:40",
-    videoId: "as0pLa76T68",
+    videoId: "fA77l1qB_pM",
     defaultNote: "Her zaman biraz mahzun olan sevimli eşeğimiz Eeyore'un kayıp kuyruğunu bulduğumuz ve onun için parti yaptığımız gün."
   },
   {
@@ -57,7 +57,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 6: Büyük Bal Hırsızı Gizemi",
     originalName: "The Great Honey Pot Mystery",
     duration: "20:50",
-    videoId: "g3H9_A7O0_M",
+    videoId: "u_8r0E-9RkI",
     defaultNote: "Pooh'un ballarının nereye kaybolduğunu bulmak için kurduğumuz sevimli, eğlenceli ve komik tuzaklar."
   },
   {
@@ -65,7 +65,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 7: Tigger Ormanlar Kralı Oluyor",
     originalName: "King of the Beasts",
     duration: "19:30",
-    videoId: "SgM_mG8p9b0",
+    videoId: "Xm-mUjGk2zY",
     defaultNote: "Tigger'ın kendisini vahşi ormanın aslanı zannederek masalsı kükremelerle herkesi güldürdüğü neşeli bölüm."
   },
   {
@@ -73,7 +73,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 8: Rabbitt'in Özel Lahana Bahçesi",
     originalName: "Rabbit's Perfect Garden Plan",
     duration: "22:15",
-    videoId: "U5pPlD8H_O0",
+    videoId: "MWNg-RZRk18",
     defaultNote: "Detaycı, titiz ve komik tavşan dostumuzun havuçları korumak için yaptığı absürt stratejiler."
   },
   {
@@ -81,7 +81,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 9: Baykuş'un Aile Soy Ağacı Masalı",
     originalName: "Owl's Grand Family Tree",
     duration: "18:45",
-    videoId: "as0pLa76T68",
+    videoId: "V0l9Qf4P3G4",
     defaultNote: "Yüz Dönüm Ormanı'nın en entelektüel ama bir o kadar dalgın üyesi Baykuş'un saatlerce anlattığı kahkaha dolu aile anıları."
   },
   {
@@ -89,7 +89,7 @@ const POOH_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 10: Sonsuza Kadar En İyi Dostlar",
     originalName: "Forever and Ever Friends",
     duration: "26:10",
-    videoId: "g3H9_A7O0_M",
+    videoId: "xRz7z-I1z-I",
     defaultNote: "Pooh ve Christopher Robin'in el ele verip 'Biz her nerede olursak olalım, hep birlikteyiz' dedikleri muhteşem final."
   }
 ];
@@ -100,7 +100,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 1: Balina Spotty ve İlk Melodi",
     originalName: "Whale of a Tale",
     duration: "24:50",
-    videoId: "SXKlJuO07RE",
+    videoId: "2kW9n2r2cfM",
     defaultNote: "Ariel'in sevimli kayıp yavru katil balina Spotty ile dost olup kraliyet sarayını neşelendirdiği büyülü dalgalar."
   },
   {
@@ -108,7 +108,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 2: Sebastian Sirkin Yıldızı",
     originalName: "The Great Sebastian",
     duration: "23:15",
-    videoId: "GC_mV1IpjWA",
+    videoId: "ZmdTuxtvelg",
     defaultNote: "Huysuz ama sadık saray yengecimiz Sebastian'ın okyanus dışı gösterilerde şöhret olmaya çalıştığı komik macera."
   },
   {
@@ -116,7 +116,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 3: Vahşi Denizatı Stormy",
     originalName: "Stormy the Wild Seahorse",
     duration: "22:40",
-    videoId: "tXmLRHnoSAs",
+    videoId: "YWprw_UFrqE",
     defaultNote: "Özgür ruhlu Ariel'in hiç kimsenin evcilleştiremediği fırtına saçlı mavi denizatı ile bağ kurduğu derin sular."
   },
   {
@@ -124,7 +124,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 4: Denizlerin Sokak Çocuğu",
     originalName: "Urchin",
     duration: "23:05",
-    videoId: "VxMrZ8Msz_Y",
+    videoId: "2kW9n2r2cfM",
     defaultNote: "Yalnız yaşayan yaramaz deniz erkeği Urchin'in Ariel ve Flounder ile gerçek aile sıcaklığını keşfettiği büyülü hikaye."
   },
   {
@@ -132,7 +132,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 5: İki Kat Kahkaha Köpük Kedisi",
     originalName: "Double Bubble",
     duration: "21:50",
-    videoId: "SXKlJuO07RE",
+    videoId: "ZmdTuxtvelg",
     defaultNote: "Ariel'in sevimli ikiz yaramaz deniz canlılarına bakıcılık yapmaya çalışırken sarayı alt üst ettiği tatlı kaos."
   },
   {
@@ -140,7 +140,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 6: Şişedeki Sihirli Mesaj",
     originalName: "Message in a Bottle",
     duration: "22:15",
-    videoId: "GC_mV1IpjWA",
+    videoId: "YWprw_UFrqE",
     defaultNote: "Kovukların derinliğinden gelen bir yardım mektubunu okuyarak Ariel ve dostlarının çıktığı gizli hazine seyahati."
   },
   {
@@ -148,7 +148,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 7: Kral Triton'un Kayıp Tacı",
     originalName: "The Lost Crown of Triton",
     duration: "23:45",
-    videoId: "tXmLRHnoSAs",
+    videoId: "2kW9n2r2cfM",
     defaultNote: "Okyanus güçlerinin sembolü olan asil tacın kaybolması üzerine denizlerin altındaki nefes kesen heyecan zinciri."
   },
   {
@@ -156,7 +156,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 8: Ariel'in Altın Saç Tokası",
     originalName: "Ariel's Golden Hair Clip",
     duration: "20:10",
-    videoId: "VxMrZ8Msz_Y",
+    videoId: "ZmdTuxtvelg",
     defaultNote: "İnsan dünyasına ait olan parlak, gizemli bir tokanın Ariel'in eline geçmesiyle başlayan meraklı serüven."
   },
   {
@@ -164,7 +164,7 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 9: Flounder'ın Muazzam Cesareti",
     originalName: "Flounder's Super Bravery",
     duration: "21:20",
-    videoId: "SXKlJuO07RE",
+    videoId: "YWprw_UFrqE",
     defaultNote: "En küçük gölgelerden bile ürken tombul sarı balık Flounder'ın Ariel'i köpekbalıklarından kurtardığı o şanlı zafer."
   },
   {
@@ -172,13 +172,17 @@ const ARIEL_EPISODES: CartoonEpisode[] = [
     title: "Bölüm 10: Denizden Karaya İlk Gizli Adım",
     originalName: "Land Adventure First Dreams",
     duration: "25:00",
-    videoId: "GC_mV1IpjWA",
+    videoId: "2kW9n2r2cfM",
     defaultNote: "Erik ile tanışmadan çok önce, Ariel'in kıyıdaki kayaların arkasından insan dünyasının ışıklarını izlediği melankolik başlangıç."
   }
 ];
 
 export default function Playlist({ theme }: { theme: AppTheme }) {
   const episodes = theme === 'pooh' ? POOH_EPISODES : ARIEL_EPISODES;
+  const POOH_PLAYLIST_ID = 'PLpefKlB_EXAJBXDsU9PfQXZFi4KTiNnRF';
+  const ARIEL_PLAYLIST_ID = 'PLu0hKxDGoamK4cmmsajMlAeaDtdYqE1Cp';
+  const currentPlaylistId = theme === 'pooh' ? POOH_PLAYLIST_ID : ARIEL_PLAYLIST_ID;
+  
   const [currentEpisode, setCurrentEpisode] = useState<CartoonEpisode>(episodes[0]);
   
   // Custom user diary about cartoon watch list (reviews, ratings, watched)
@@ -286,7 +290,7 @@ export default function Playlist({ theme }: { theme: AppTheme }) {
           <div className="relative w-full aspect-video rounded-2xl overflow-hidden glass-panel border-2 border-[var(--theme-card-border)] shadow-md group">
             <iframe
               id="cartoon-video-player"
-              src={`https://www.youtube.com/embed/${activeVideoId}?autoplay=0&rel=0`}
+              src={`https://www.youtube.com/embed/${activeVideoId}?list=${currentPlaylistId}&autoplay=0&rel=0`}
               title={currentEpisode.title}
               className="w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
